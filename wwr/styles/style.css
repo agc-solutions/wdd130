@@ -54,7 +54,7 @@ nav a {
     text-decoration: none;
 }    
 .book, .join {
-    background-color: #6F7364;
+    background-color: #E3D0BA;
     color: white;
     text-decoration: none;
 }    
@@ -67,7 +67,7 @@ nav a {
     background-color: #6F7364;
 }
 .msg h2 {
-    color: white
+    color: wheat;
 }
 .msg p {
     color: wheat;
