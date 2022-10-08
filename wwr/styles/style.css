@@ -1,3 +1,31 @@
+.content {
+    max-width: max-width;
+    margin: 0 auto;
+}
+
+/*.logo {
+    display: block;
+    margin: 0px auto;
+}*/
+
+/*.hero-box {
+    display: block;
+    margin: 0 auto;
+}*/
+
+.logo {
+    height: 100px;
+    width: 100px;
+   }
+#hero-img {
+  
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
 
 
 nav a, .button-box, main section {
@@ -9,6 +37,7 @@ nav a, .button-box, main section {
 }
 #background {
     height: 725px;
+    background-color: #D9C2A3;
 }
 
 body {
@@ -42,10 +71,6 @@ nav a {
     background-color: black;
     color: white;
 }    
-
-#background {
-    background-color: #D9C2A3;
-}  
 
 .msg {
     background-color: #6F7364;
