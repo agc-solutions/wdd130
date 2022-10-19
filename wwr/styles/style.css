@@ -96,7 +96,7 @@ nav a {
     color: wheat;
 }
 .msg p {
-    font-family: 'Montserrat', 'Rock Salt', sans-sefif;
+    font-family: 'Montserrat', 'Rock Salt', sans-serif;
     font-size: 18px;
     color: wheat;
     padding: 15px;
@@ -121,7 +121,7 @@ footer a {
 }
 .home-title {
     color: #D9C2A3;
-    font-family: 'Rock Salt', 'Montserrat', sans-sefif;
+    font-family: 'Rock Salt', 'Montserrat', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -134,7 +134,7 @@ footer p {
     
 }
 .book, .join {
-    font-family: 'Montserrat', 'Rock Salt', sans-sefif;
+    font-family: 'Montserrat', 'Rock Salt', sans-serif;
     font-size: 18px;
 }
 .social img {
