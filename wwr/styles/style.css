@@ -376,7 +376,7 @@ main section img {
 #feedback {
     background-color: antiquewhite;
     position: absolute;
-    top: 200px;
+    top: 0;
     left: 0;
     right: 0;
     padding: .5em;
