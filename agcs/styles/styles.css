@@ -184,7 +184,7 @@ nav {
 }
 
 .msgp3 {               /*page 03*/
-    grid-column: 10/38;
+    grid-column: 8/40;
     grid-row: 10/20;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -197,7 +197,7 @@ nav {
     margin-bottom: 50px;
 }
 .msg3p3 {               /*page 03*/
-    grid-column: 27/39;
+    grid-column: 26/39;
     grid-row: 42/51;margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -410,9 +410,15 @@ main section img {
     font-size: 18px;
     color: wheat;
     padding: 15px;
+    overflow:auto;
+    
     /* width: 620px;;
     height: 330px;   */
             
+}
+
+.msgp2::-webkit-scrollbar {
+    display: none;
 }
 
 .msgp2{               /*page 02*/
@@ -445,38 +451,7 @@ main section img {
     grid-row: 45/58; 
     margin-top: auto;   
 }
-/* .msg4{
-    grid-column: 6/10;
-    grid-row: 15/16;    
-    margin: 25px 0 -175px 0; */
 
-
-/* 
-.storm {
-    grid-column: 11/37;
-    grid-row: 8/21;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin: 25px 0 0 0;
-}
-
-.computer {
-    grid-column: 4/15;
-    grid-row: 56/65;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.analise {
-    grid-column: 18/31;
-    grid-row: 56/65;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin: 25px 0 -175px 0;
-}
-.grafics {
-    grid-column: 32/45;
-    grid-row: 56/65;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin: 25px 0 -175px 0;
-} */
 
 .whatsapp{               /*page 02*/
     grid-column: 18/33;
