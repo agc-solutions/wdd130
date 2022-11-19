@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Michroma&family=Montserrat:wght@100;200;300;500;600&family=Poiret+One&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 5px;
+}
+
+#hero-img {
+  
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 100%;      
+}
+
+
+
+nav a, .button-box, main section {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+                                    /* backgrounds 2, 3 and 4 - added for page 2
+                                    #background, #background-2, #background-3, #background-4  {
+                                        height: 725px;
+                                        background-color: wheat;
+                                    } */
+
+body {
+    background-color: #396e94; 
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-shadow: #000 2px 3px 2px;
+}
+
+h2 {
+    margin: 0;
+}
+header {
+    background-color:rgba(20,30,13, .3);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(48, 1fr);
+    /* grid-template-rows: repeat(22, 1fr); */
+    margin-top: -100px;
+}
+
+
+#hero-box {
+    grid-column: 1/49;
+    grid-row: 1/22;
+    z-index: -1;
+    opacity: 0.7;
+}
+.hero2-img {                  /*page 2*/
+    grid-column: 30/42;
+    grid-row: 1/5;
+    /* z-index: +1; */
+    margin-top: 80%;
+    opacity: 0.5;
+    transition: transform 1.2s;
+    box-shadow: 5px 5px 10px black;
+    
+}
+#hero-msg h4 {
+    color: #ffff00;
+}
+#hero-msg {
+    grid-column: 4/28;
+    grid-row: 2/3;
+    margin-top: 300px;
+}
+
+.home-grid, .homep2-grid, .homep3-grid {
+    display: grid;
+    grid-template-columns: repeat(48, 1fr);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.goal-card {               /*page 01*/
+    grid-column: 4/22;
+    grid-row: 24/38;
+    justify-self: center;
+    align-self: center;
+    margin-top: 100px;
+}
+.sites-card {               /*page 01*/
+    grid-column: 4/23;
+    grid-row: 42/52;
+    justify-self: center;
+    align-self: center;
+    
+}
+.marketing-card {               /*page 01*/
+    grid-column: 26/44;
+    grid-row: 42/52;
+    justify-self: center;
+    align-self: center;
+}
+
+.tks-card {               /*page 03*/
+    grid-column: 10/38;
+    grid-row: 23/35;
+    justify-self: center;
+    align-self: center;
+}
+.chklst-card {               /*page 03*/
+    grid-column: 8/22;
+    grid-row: 53/64;
+    justify-self: center;
+    align-self: center;
+    
+}
+.strategy-card {               /*page 03*/
+    grid-column: 26/40;
+    grid-row: 53/64;
+    justify-self: center;
+    align-self: center;
+}
+                                            /* #background {
+                                                grid-column: 26/44;
+                                                grid-row: 5/16; */
+                                            /* } */
+/* .msg {
+    background-color: #6F7364;
+    line-height: 1.5em;
+    
+    padding: 35px;
+    
+    box-shadow: 5px 5px 10px #6f7364;    
+    align-items: center; */
+    /*margin-top: 200px;*/    
+/* } */
+
+.msg-goal, .msg-sites, .msg-marketing, .msgp3 {
+    background-color: #001d3d;
+    /* opacity: .5; */
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;    
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.msg-goal {               /*page 01*/
+    grid-column: 26/44;
+    grid-row: 26/37;
+    
+}
+.msg-sites {               /*page 01*/
+    grid-column: 4/23;
+    grid-row: 54/61;
+}
+.msg-marketing {               /*page 01*/
+    grid-column: 26/44;
+    grid-row: 54/61;
+}
+
+.msgp3 {               /*page 03*/
+    grid-column: 10/38;
+    grid-row: 10/20;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.msg2p3 {               /*page 03*/
+    grid-column: 9/22;
+    grid-row: 42/51;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.msg3p3 {               /*page 03*/
+    grid-column: 27/39;
+    grid-row: 42/51;margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* .go_up {
+    grid-column: 4/22;
+    grid-row: 4/17;
+    box-shadow: 5px 5px 10px #6f7364;
+} */
+nav a:hover {
+    background-color: black;
+    color: #D9C2A3;
+}
+    
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+nav a {
+    text-align: center;
+    color: #ffff00;
+    text-decoration: none;
+    padding: 35px;
+}    
+
+.call, .join, .whatsapp, .whatsapp3 {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.call:hover, .join:hover, .whatsapp:hover, .whatsapp3:hover {
+    background-color: black;
+    color: white;
+} 
+
+h2 {
+    color: #ffff00;
+}
+
+.msg h2, .msgp2 h2 {
+    color: wheat;
+}
+.msg p, .msg-goal, .msg-sites, .msg-marketing, .msgp2 p, .msgp3 p {
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #E7C24F;
+    padding: 15px;
+    overflow: auto;
+}
+
+.msg2p3, .msg3p3 {               /*page 03*/
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #E7C24F;
+    background-color: #001d3d;
+    /* opacity: .5; */
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    
+    
+}
+
+footer {
+    background-color: #001d3d;
+    text-align: center;
+    color: #ffff00;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+footer a:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: white;
+}
+footer a {
+    color: #ffff00;
+    text-decoration: none;
+}
+.home-title {
+    color: #ffff00;
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: black;
+}
+footer p {
+    font-size: 0.9em;
+    
+}
+
+.call, .join, .whatsapp, .whatsapp3 {
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.social img {
+    padding-top: 15px;
+}
+/* .sites-card, .marketing_card, .goal-card {
+    margin: 200px 0;
+} */
+.card-img {
+    border: 10px solid #ffff00;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.hero2-img:hover {               /*page 02*/
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+/* .home-grid-2 - added for page 2 */
+@media screen and (max-width: 900px) {
+    #hero, .home-grid, .home-grid-2 {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #ffff00;
+    }
+  
+    /* .msgp2, - added for page 2 */
+    /* .msg, .msgp2, .msg2p2 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    } */
+    footer {
+        margin-top: 25px;
+    }
+}
+
+
+.storm-card, .computer-card, .analise-card, .grafics-card,.msgp2, .msg2p2, .button-action, .buttonp3 {
+    margin-top: 150px;
+
+}
+
+.storm-card {               /*page 02*/
+    grid-column: 10/40;
+    grid-row: 7/21;
+    justify-self: center;
+    align-self: center;    
+}
+.computer-card {               /*page 02*/
+    grid-column: 4/17;
+    grid-row: 56/65;
+    justify-self: center;
+    align-self: center;
+    margin-top: 200px;
+}
+.analise-card {               /*page 02*/
+    grid-column: 18/32;
+    grid-row: 56/65;
+    justify-self: center;
+    align-self: center;
+    margin-top: 200px;
+}
+.grafics-card {               /*page 02*/
+    grid-column: 33/46;
+    grid-row: 56/65;
+    justify-self: center;
+    align-self: center;
+    margin-top: 300px;
+}
+.msgp2, .msg2p2 {               /*page 02*/
+    background-color: #001d3d;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px black;    
+    align-items: center;
+    font-family: 'Michroma', 'Montserrat', 'Poiret One', 'Poppins', sans-serif;
+    font-size: 18px;
+    color: wheat;
+    padding: 15px;
+    /* width: 620px;;
+    height: 330px;   */
+            
+}
+
+.msgp2{               /*page 02*/
+    grid-column: 11/39;
+    grid-row: 25/37;    
+    /* margin: 25px 0 0 0; */
+    overflow:auto;
+    
+}
+
+/* #button-action {
+    grid-column: 18/30;
+    grid-row: 54/56;
+    text-align: center; 
+
+}
+#buttonp3-action {
+    grid-column: 18/30;
+    grid-row: 37/39;
+    text-align: center; 
+
+} */
+
+
+.msgp2::-webkit-scrollbar {
+    display: none;
+}
+.msg2p2{               /*page 02*/
+    grid-column: 6/44;
+    grid-row: 45/58; 
+    margin-top: auto;   
+}
+/* .msg4{
+    grid-column: 6/10;
+    grid-row: 15/16;    
+    margin: 25px 0 -175px 0; */
+
+
+/* 
+.storm {
+    grid-column: 11/37;
+    grid-row: 8/21;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 25px 0 0 0;
+}
+
+.computer {
+    grid-column: 4/15;
+    grid-row: 56/65;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.analise {
+    grid-column: 18/31;
+    grid-row: 56/65;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 25px 0 -175px 0;
+}
+.grafics {
+    grid-column: 32/45;
+    grid-row: 56/65;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 25px 0 -175px 0;
+} */
+
+.whatsapp{               /*page 02*/
+    grid-column: 18/33;
+    grid-row: 54/56;
+    text-align: center;  
+}
+
+.whatsapp3 {               /*page 03*/
+    grid-column: 18/30;
+    grid-row: 37/39;
+    text-align: center;  
+}
+.zap1 {               /*page 01*/
+    grid-column: 11/17;
+    grid-row: 63/65;
+    margin-top: 50px;
+}
+
+.mkt {               /*page 01*/
+    grid-column: 32/38;
+    grid-row: 63/65;
+    margin-top: 50px;
+}
+
+.zap {               /*page 02*/
+    grid-column: 18/32;
+    grid-row: 40/42;
+     
+}
+.zap3 {               /*page 03*/
+    grid-column: 18/30;
+    grid-row: 37/39;
+    margin-top: 50px;
+     
+}
+
+.company, .tools {               /*page 03*/
+    margin-top: 50px;
+    margin-left: 50px;
+    list-style-position: inside;
+    text-align: left;
+    list-style: circle;
+}
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    text-align: center;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 5em auto;
+    width: 800px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 580px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 330px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
