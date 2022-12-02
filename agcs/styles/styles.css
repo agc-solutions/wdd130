@@ -396,7 +396,7 @@ main section img {
     margin-bottom: -100px;
 }
 .analise-card {               /*page 02*/
-    grid-column: 18/31;
+    grid-column: 18/32;
     grid-row: 58/68;
     justify-self: center;
     align-self: center;
@@ -404,7 +404,7 @@ main section img {
     margin-bottom: -100px;
 }
 .grafics-card {               /*page 02*/
-    grid-column: 32/45;
+    grid-column: 33/46;
     grid-row: 58/68;
     justify-self: center;
     align-self: center;
@@ -466,9 +466,9 @@ main section img {
     display: none;
 } */
 .msg2p2{               /*page 02*/
-    grid-column: 6/43;
+    grid-column: 6/44;
     grid-row: 48/56; 
-    margin-top: 40px; 
+    margin-top: 0px; 
     margin-bottom: -200px;  
     /* margin-top: auto;    */
 }
@@ -502,9 +502,9 @@ main section img {
 }
 
 .zap {               /*page 02*/
-    grid-column: 18/31;
+    grid-column: 18/32;
     grid-row: 42/45;
-    margin-top: -110px;
+    margin-top: -120px;
     /*margin-bottom: 100px; */
          
 }
