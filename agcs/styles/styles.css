@@ -432,7 +432,7 @@ main section img {
     grid-row: 28/39;
     height: 60%;   
     margin-top: 100px;
-    margin-bottom: -200px;  
+    margin-bottom: -180px;  
     /* margin: 100px 0 0 0;
     height: 60%;     */
     /* margin-bottom: -550px;     */
@@ -468,7 +468,7 @@ main section img {
 .msg2p2{               /*page 02*/
     grid-column: 6/43;
     grid-row: 48/56; 
-    margin-top: 50px; 
+    margin-top: 40px; 
     margin-bottom: -200px;  
     /* margin-top: auto;    */
 }
@@ -504,7 +504,7 @@ main section img {
 .zap {               /*page 02*/
     grid-column: 18/31;
     grid-row: 42/45;
-    margin-top: -90px;
+    margin-top: -110px;
     /*margin-bottom: 100px; */
          
 }
