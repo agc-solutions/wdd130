@@ -129,20 +129,20 @@ nav {
 }
 
 .tks-card {               /*page 03*/
-    grid-column: 10/38;
+    grid-column: 10/40;
     grid-row: 23/35;
     justify-self: center;
     align-self: center;
 }
 .chklst-card {               /*page 03*/
-    grid-column: 8/22;
+    grid-column: 8/24;
     grid-row: 53/64;
     justify-self: center;
     align-self: center;
     margin-bottom: -150px;
 }
 .strategy-card {               /*page 03*/
-    grid-column: 26/40;
+    grid-column: 26/42;
     grid-row: 53/64;
     justify-self: center;
     align-self: center;
@@ -190,21 +190,22 @@ nav {
 }
 
 .msgp3 {               /*page 03*/
-    grid-column: 8/40;
+    grid-column: 9/41;
     grid-row: 10/20;
     margin-top: 50px;
     margin-bottom: 50px;
     
 }
 .msg2p3 {               /*page 03*/
-    grid-column: 9/22;
+    grid-column: 10/23;
     grid-row: 42/51;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .msg3p3 {               /*page 03*/
-    grid-column: 26/39;
-    grid-row: 42/51;margin-top: 50px;
+    grid-column: 27/40;
+    grid-row: 42/51;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 /* .go_up {
@@ -482,11 +483,11 @@ main section img {
      
 } */
 
-.whatsapp3 {               /*page 03*/
-    grid-column: 18/30;
+/* .whatsapp3 {               /*page 03*/
+    /* grid-column: 18/30;
     grid-row: 37/39;
-    text-align: center;  
-}
+    text-align: center;
+} */
 .zap1 {               /*page 01*/
     grid-column: 10/17;
     grid-row: 63/65;
@@ -509,7 +510,7 @@ main section img {
          
 }
 .zap3 {               /*page 03*/
-    grid-column: 18/30;
+    grid-column: 19/31;
     grid-row: 37/39;
     margin-top: 50px;
      
