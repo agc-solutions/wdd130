@@ -28,11 +28,6 @@ nav a, .button-box, main section {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-                                    /* backgrounds 2, 3 and 4 - added for page 2
-                                    #background, #background-2, #background-3, #background-4  {
-                                        height: 725px;
-                                        background-color: wheat;
-                                    } */
 
 body {
     background-color: #396e94; 
