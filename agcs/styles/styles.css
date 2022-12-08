@@ -48,7 +48,8 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content:flex-end;
 }
 #logo_link {
     padding-top: 5px;
@@ -608,3 +609,11 @@ form {
     background-color: #ffff00;
     color: darkred;
 } 
+.formElement{
+    background-color: darkred;
+    color: greenyellow;
+}
+#document {
+    background-color: darkred;
+    color: greenyellow;
+}
