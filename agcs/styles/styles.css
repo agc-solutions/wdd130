@@ -204,11 +204,7 @@ nav {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-/* .go_up {
-    grid-column: 4/22;
-    grid-row: 4/17;
-    box-shadow: 5px 5px 10px #6f7364;
-} */
+
 nav a:hover {
     background-color: black;
     color: #D9C2A3;
